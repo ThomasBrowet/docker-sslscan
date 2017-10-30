@@ -11,7 +11,7 @@
 Get the [trusted build on the docker hub](https://registry.hub.docker.com/u/tbrowet/docker-sslscan/):
 
 ```bash
-$ docker pull tbrowet/docker-sslscan
+$ docker pull ThomasBrowet/docker-sslscan
 ```
 
 or download and compile the source yourself from Github:
@@ -19,7 +19,7 @@ or download and compile the source yourself from Github:
 ```bash
 $ git clone https://github.com/tbrowet/docker-sslscan.git
 $ cd docker-sslscan
-$ docker build -t tbrowet/docker-sslscan .
+$ docker build -t ThomasBrowet/docker-sslscan .
 ```
 
 ## Usage
@@ -29,5 +29,5 @@ It tests SSL/TLS enabled services to discover supported cipher suites.
 Example usage:
 
 ```bash
-$ docker run --rm tbrowet/docker-sslscan www.google.com
+$ docker run --rm ThomasBrowet/docker-sslscan www.google.com
 ```
