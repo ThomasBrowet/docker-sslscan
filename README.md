@@ -29,5 +29,5 @@ It tests SSL/TLS enabled services to discover supported cipher suites.
 Example usage:
 
 ```bash
-$ docker run -t thomasbrowet/docker-sslscan www.google.com
+$  docker run -it --rm thomasbrowet/sslscan www.google.com
 ```
